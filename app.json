@@ -1,0 +1,21 @@
+{
+  "name": "tictactoe-slack",
+  "description": "Custom slash command for slack that plays tic-tac-toe",
+  "repository": "https://github.com/imxj/tictactoe-slack",
+  "success_url": "/",
+  "env": {
+    "HEROKU_APP_NAME": {
+      "required": true
+    },
+    "TICTACTOE_COMMAND_TOKEN": {
+      "description": "Slash command token, for the tictactoe command endpoint, create a slash command in Slack and copy the token here",
+      "required": true
+    },
+    "SLACK_API_TOKEN": {
+      "description": "Slack WEB API token, only works with TEST token from slack so far",
+      "required": false
+    },
+    "NODE_ENV": "staging"
+  },
+  "image": "heroku/nodejs"
+}
