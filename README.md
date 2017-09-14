@@ -36,16 +36,3 @@ tictactoe LIVES on PORT 3000
 
 Visit [localhost:3000](http://localhost:3000).
 
-### Deploy
-
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
-
-_Or with the [Heroku Toolbelt](https://toolbelt.heroku.com)_
-
-```shell
-$ heroku create {optional-app-name}
-
-$ git push heroku master
-
-$ heroku open
-```
