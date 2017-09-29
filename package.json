@@ -5,7 +5,7 @@
   "scripts": {
     "start": "node ./src"
   },
-  "author": "Jin Xu",
+  "author": "DC",
   "dependencies": {
     "body-parser": "^1.15.0",
     "botkit": "0.0.7",

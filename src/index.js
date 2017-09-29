@@ -17,10 +17,11 @@ globalTicTacToeObject.gameList = {};
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: true }))
 
-app.get('/', (req, res) => { res.send('\n Connected to tictactoe \n') })
+app.get('/', (req, res) => { res.send('\n teststestst \n') })
 
 app.post('/commands/tictactoe', (req, res) => {
   var payload = req.body
+  console.log(payload)
 
   if (!payload || payload.token !== config('TICTACTOE_COMMAND_TOKEN')) {
     res.status(401).end('Warning: the Slack slash token is wrong')
@@ -51,5 +52,6 @@ app.post('/commands/tictactoe', (req, res) => {
 app.listen(config('PORT'), (err) => {
   if (err) throw err
 
-  console.log(`tictactoe LIVES on PORT ${config('PORT')}`)
+  console.log('jinniniinin')
+  //console.log(`tictactoe LIVES on PORT ${config('PORT')}`)
 })

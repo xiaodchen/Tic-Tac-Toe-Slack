@@ -1,7 +1,7 @@
 {
   "name": "tictactoe-slack",
   "description": "Custom slash command for slack that plays tic-tac-toe",
-  "repository": "https://github.com/imxj/tictactoe-slack",
+  "repository": "https://github.com/xiaodchen/tictactoe-slack",
   "success_url": "/",
   "env": {
     "HEROKU_APP_NAME": {
