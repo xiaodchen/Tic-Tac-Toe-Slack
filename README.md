@@ -36,3 +36,10 @@ tictactoe LIVES on PORT 3000
 
 Visit [localhost:3000](http://localhost:3000).
 
+Game play
+![Alt text](./imgs/step1.png)
+
+![Alt text](./imgs/step2.png)
+
+![Alt text](./imgs/step3.png)
+
